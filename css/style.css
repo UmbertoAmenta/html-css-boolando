@@ -6,3 +6,51 @@
     margin: 0;
     padding: 0;
 }
+
+
+/*------------
+    GENERAL
+------------*/
+.container {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 5px;
+}
+
+.fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/*------------
+    HEADER
+------------*/
+header {
+    background-color: #ff6900;
+    color: white;
+    font-size: 1.3em;
+}
+
+header > .container.flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    max-height: 70px;
+    padding: 15px 0;
+}
+
+header i {
+    padding: 5px;
+}
